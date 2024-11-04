@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical"
+    tools:context=".uiState.Carrinho">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="68dp"
+      android:text="Carrinho de compras"
+      android:textSize="30dp"
+      android:layout_marginLeft="16dp"
+      android:padding="16dp"
+      android:layout_marginRight="16dp"
+      android:textColor="@color/white">
+
+  </TextView>
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="217dp"
+      android:layout_gravity="top"
+     android:background="@color/white"
+      android:layout_marginLeft="16dp"
+      android:layout_marginRight="16dp"
+      >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+      <ImageView
+          android:id="@+id/imageOne"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginBottom="80dp"
+          android:padding="12dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/textView3"
+          app:layout_constraintHorizontal_bias="0.328"
+          app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="95dp"
+          android:layout_height="40dp"
+          android:text="Batata"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.316">
+
+      </TextView>
+
+      <Button
+          android:layout_width="298dp"
+          android:layout_height="51dp"
+          android:layout_gravity="center_horizontal"
+          android:background="@color/BlueButtonAction"
+          android:text="Finalize seu pedido"
+          android:textAlignment="center"
+          android:textColor="@color/white"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.903">
+
+      </Button>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </FrameLayout>
+
+
+</LinearLayout>

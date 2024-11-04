@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uiState.Home"
+    android:orientation="vertical"
+    android:background="@color/Background" >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+</ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="16dp"
+        android:text="Mais vendidos"
+        android:textColor="@color/white"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="16dp"
+        android:alpha="0.50"
+        android:fontFamily="sans-serif"
+        android:hint="Maiores sucessos do WeMovie"
+        android:textColorHint="@color/white"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_gravity="top"
+        android:background="@color/white"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/viuvanegra"
+            android:layout_marginTop="16dp">
+        </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="Viuva Negra"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <Button
+                android:id="@+id/ButtonWidow"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@color/BlueButtonAction"
+                android:text="Adicionar ao carrinho"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="10dp">
+
+
+            </Button>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/spiderman"
+                android:layout_marginTop="16dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="Spider Man"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <Button
+                android:id="@+id/ButtonSpider"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@color/BlueButtonAction"
+                android:text="Adicionar ao carrinho"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="10dp">
+
+
+            </Button>
+        </LinearLayout>
+     </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/shangchi"
+                android:layout_marginTop="16dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="ShangChi"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <Button
+                android:id="@+id/ButtonShangChi"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@color/BlueButtonAction"
+                android:text="Adicionar ao carrinho"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="10dp">
+
+
+            </Button>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>
+
+    
